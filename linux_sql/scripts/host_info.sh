@@ -21,8 +21,7 @@ l2_cache=$(echo "$lscpu_out" | egrep -o 'L2 cache:[[:space:]]*[0-9]+' | awk '{pr
 timestamp=$(date "+%Y-%m-%d %H:%M:%S")
 total_mem=$(echo "$vmstat_mb" | tail -1 | awk '{print $4}')
 
-insert_stmt="INSERT INTO host_info(id, hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache, timestamp, total_mem) VALUES(1, '$hostname', $cpu_number, '$cpu_architecture','$cpu_model', $cpu_mhz, $l2_cache, '$timestamp', $total_mem);"
-
+insert_stmt="INSERT INTO host_info(hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache, timestamp, total_mem) VALUES('$hostname', $cpu_number, '$cpu_architecture','$cpu_model', $cpu_mhz, $l2_cache, '$timestamp', $total_mem);"
 
 export PGPASSWORD=$psql_password
 psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
