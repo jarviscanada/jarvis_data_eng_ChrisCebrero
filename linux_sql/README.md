@@ -40,6 +40,29 @@ Shell script description and usage (use markdown code block for script usage)
 | timestamp.       | timestamp |
 | total_mem.       | int.      |
 
+- `host_usage`
+| title.           |       type|
+| ---------------- | --------- |
+| timestamp        | timestamp |
+| host_id          | varchar   |
+| memory_free      | int       |
+| cpu_idle         | varchar   |
+| cpu_kernel       | varchar   |
+| disk_io          | float.    |
+| disk_available   | int4.     |
 
+# Test
+Before adding the actual content to the scripts, I would verify the information I was retrieving fit well with the schema types of the database.
+I would make sure to print `bash -x` before executing each script to print each command and its arguments to better visualize the execution flow, and identify any issues in variable assignments or command executions. Furthermore I would manully verify the psql instancce to make sure the correct information was adde.
+
+
+# Deployment
+I utilized GitHub to host the source code and track any code changes. I containerized my application using Docker, as it encapsulates the application and its dependencies, making it easier to deploy across different environments. Furthermore, to deploy the monitoring application on the JRD instance, I used crontab to schedule the execution of the `./scripts/host_usage.sh` script every minute.
+
+# Improvements
+- Using tools like Jenkins to automate the deployment process, which could help reduce manual errors
+- Having more robust error handling can help the application gracefully handle any unexpected scenarios
+- Security considerations, i.e. make sure sensitive information such as credentials are handled properly
+                                                                                                             
                                                                                                                                                              17,0-1        41%
 
