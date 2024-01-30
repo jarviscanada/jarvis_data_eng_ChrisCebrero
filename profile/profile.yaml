@@ -1,7 +1,7 @@
 # Preferred name (Characters only)
 name: "Chris Cebrero"
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_ChrisCebrero
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
@@ -109,15 +109,18 @@ education:
 #Optional section
 others:
     #category
-  - title: "Certificates"
+#  - title: "Certificates"
     #list of items
-    bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
-    bullets:
-      - "Winner"
+#    bullets:
+#      - "Udacity Machine Learning (2019)"
+#  - title: "Awards"
+#    bullets:
+#      - "Winner"
   - title: "Activities/Hobbies"
     bullets:
-      - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "Volleyball"
+      - "Piano"
+      - "Music Production"
+      - "Snowboarding"
+      - "Badminton"
+      - "Video Games"
