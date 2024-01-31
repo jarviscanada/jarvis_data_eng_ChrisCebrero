@@ -8,17 +8,17 @@
       "school_name": "University of British Columbia"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_demo",
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_ChrisCebrero",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
+      "description": "Engineered API Integrations with RESTful APIs to facilitate data exchange between the frontend and backend. Developed the frontend using React.js and TypeScript. Implemented cross-device styling using Tailwind CSS for a responsive user experience.",
+      "git_url": "https://github.com/chriscebrero/dimensional-app",
+      "name": "Web app for Dimensional"
     },
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": null,
-      "name": "Machine Learning"
+      "description": "Developed the frontend using React.js. Utilized Redux for complex state management. Coded backend API endpoints using Node.js to handle server-side logic. Implemented authentication and authorization middleware using JWT tokens. Stored user information within MongoDB.",
+      "git_url": "https://github.com/chriscebrero/WarblerApp",
+      "name": "Warbler"
     }
   ],
   "jarvis_projects": [
@@ -32,21 +32,12 @@
   "others": [
     {
       "bullets": [
-        "Udacity Machine Learning (2019)"
-      ],
-      "title": "Certificates"
-    },
-    {
-      "bullets": [
-        "Winner"
-      ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
-        "Basketball player",
-        "Competitive gaming",
-        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+        "Volleyball",
+        "Piano",
+        "Music Production",
+        "Snowboarding",
+        "Badminton",
+        "Video Games"
       ],
       "title": "Activities/Hobbies"
     }
