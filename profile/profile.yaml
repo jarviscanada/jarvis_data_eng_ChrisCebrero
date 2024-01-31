@@ -38,7 +38,7 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Developed a startup script that creates a psql instance using Docker. Implemented SQL scripts for efficient table management within a Postgres Database which created tables related to hardware specifications and CPU usage. Programmed bash scripts to parse and retrieve essential system information using Regex, and insert them into the corresponding database tables. Deployed and automated the process using crontabs, which scheduled bash scripts to run every minute. 
+    description: "Created a cluster monitoring application utilizing Docker, Linux, Bash and PostgreSQL. Developed a startup script that creates a PostgreSQL instance using Docker. Implemented SQL scripts for efficient table management within a Postgres Database which created tables related to hardware specifications and CPU usage. Programmed bash scripts to parse and retrieve essential system information using Regex, and insert them into the corresponding database tables. Manually connected to the PostgreSQL instance to verify information after running scripts. Containerized the application with Docker. Utilized GitHub to host the source code and track any changes. Deployed and automated the process using crontabs, which scheduled bash scripts to run every minute." 
 #  - name: "Core Java Apps"
 #    git_url: "/core_java"
 #    description:
@@ -69,10 +69,10 @@ highlighted_projects:
     #URL is optional
     git_url: "https://github.com/chriscebrero/dimensional-app"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Engineered API Integrations with RESTful APIs to facilitate data exchange between the frontend and backend. Developed the frontend using React.js and TypeScript. Implemented cross-device styling using Tailwind CSS for a responsive user experience.
+    description: "Engineered API Integrations with RESTful APIs to facilitate data exchange between the frontend and backend. Developed the frontend using React.js and TypeScript. Implemented cross-device styling using Tailwind CSS for a responsive user experience."
   - name: "Warbler"
     git_url: "https://github.com/chriscebrero/WarblerApp"
-    description: Developed the frontend using React.js. Utilized Redux for complex state management. Coded backend API endpoints using Node.js to handle server-side logic. Implemented authentication and authorization middleware using JWT tokens. Stored user information within MongoDB.
+    description: "Developed the frontend using React.js. Utilized Redux for complex state management. Coded backend API endpoints using Node.js to handle server-side logic. Implemented authentication and authorization middleware using JWT tokens. Stored user information within MongoDB."
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -81,9 +81,9 @@ professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
-    duration: "2020-present"
+    duration: "2024-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+    description: "Implemented automated scripts using Bash to increase productivity. Wrote effective SQL queries that optimized data retrieval."
   - title: "Software Engineer"
     company: "Binance"
     duration: "2023"
