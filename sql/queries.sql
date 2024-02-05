@@ -125,3 +125,13 @@ SELECT facid, total from (
 		GROUP BY facid
 	) AS ranked
 	WHERE rank = 1;
+
+-- STRINGS
+SELECT surname || ', ' || firstname AS name FROM cd.members;
+
+SELECT memid, telephone FROM cd.members WHERE telephone ~ '[()]';
+
+SELECT substr (mems.surname,1,1) AS letter, COUNT(*) AS COUNT
+FROM cd.members mems
+GROUP BY letter
+ORDER BY letter;
