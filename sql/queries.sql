@@ -73,3 +73,55 @@ SELECT DISTINCT mems.firstname || ' ' || mems.surname AS member,
 	FROM
 	cd.members mems
 ORDER BY member;
+
+-- AGGREGATION
+
+SELECT recommendedby, COUNT(*) 
+	FROM cd.members
+	WHERE recommendedby IS NOT null
+	GROUP BY recommendedby
+ORDER BY recommendedby;
+
+SELECT facid, sum(slots) AS "Total Slots"
+	FROM cd.bookings
+	GROUP BY facid
+ORDER BY facid;
+
+SELECT facid, sum(slots) AS "Total Slots"
+	FROM cd.bookings
+	WHERE
+		starttime >= '2012-09-01'
+		AND starttime < '2012-10-01'
+	GROUP BY facid
+ORDER BY sum(slots); 
+
+SELECT facid, extract(month FROM starttime) AS month, sum(slots) AS "Total Slots"
+	FROM cd.bookings
+	WHERE extract(year FROM starttime) = 2012
+	GROUP BY facid, month
+ORDER BY facid, month;
+
+SELECT COUNT(DISTINCT memid) FROM cd.bookings;
+
+SELECT mems.surname, mems.firstname, mems.memid, min(bks.starttime) AS starttime
+	FROM cd.bookings bks
+	INNER JOIN cd.members mems ON
+	mems.memid = bks.memid
+	WHERE starttime >= '2012-09-01'
+	GROUP BY mems.surname, mems.firstname, mems.memid
+ORDER BY mems.memid;
+
+SELECT (SELECT COUNT(*) FROM cd.members) AS count, firstname, surname
+	FROM cd.members
+ORDER BY joindate;
+
+SELECT row_number() OVER(ORDER BY joindate), firstname, surname
+	FROM cd.members
+ORDER BY joindate;
+
+SELECT facid, total from (
+	SELECT facid, sum(slots) total, rank() OVER (ORDER BY sum(slots) DESC) rank
+        	from cd.bookings
+		GROUP BY facid
+	) AS ranked
+	WHERE rank = 1;
