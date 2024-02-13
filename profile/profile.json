@@ -1,0 +1,96 @@
+{
+  "education": [
+    {
+      "awards_achievements": null,
+      "degree": "Bachelor of Arts",
+      "department": "Applied Mathematics \u0026 Computer Science",
+      "duration": "2014-2022",
+      "school_name": "University of British Columbia"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_ChrisCebrero",
+  "highlighted_projects": [
+    {
+      "description": "Engineered API Integrations with RESTful APIs to facilitate data exchange between the frontend and backend. Developed the frontend using React.js and TypeScript. Implemented cross-device styling using Tailwind CSS for a responsive user experience.",
+      "git_url": "https://github.com/chriscebrero/dimensional-app",
+      "name": "Web app for Dimensional"
+    },
+    {
+      "description": "Developed the frontend using React.js. Utilized Redux for complex state management. Coded backend API endpoints using Node.js to handle server-side logic. Implemented authentication and authorization middleware using JWT tokens. Stored user information within MongoDB.",
+      "git_url": "https://github.com/chriscebrero/WarblerApp",
+      "name": "Warbler"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Created a cluster monitoring application utilizing Docker, Linux, Bash and PostgreSQL. Developed a startup script that creates a PostgreSQL instance using Docker. Implemented SQL scripts for efficient table management within a Postgres Database which created tables related to hardware specifications and CPU usage. Programmed bash scripts to parse and retrieve essential system information using Regex, and insert them into the corresponding database tables. Manually connected to the PostgreSQL instance to verify information after running scripts. Containerized the application with Docker. Utilized GitHub to host the source code and track any changes. Deployed and automated the process using crontabs, which scheduled bash scripts to run every minute.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    }
+  ],
+  "name": "Chris Cebrero",
+  "others": [
+    {
+      "bullets": [
+        "Volleyball",
+        "Piano",
+        "Music Production",
+        "Snowboarding",
+        "Badminton",
+        "Video Games"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Implemented automated scripts using Bash to increase productivity. Wrote effective SQL queries that optimized data retrieval.",
+      "duration": "2024-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "Binance",
+      "description": "Implemented key features on Binance's User Dashboard. Migrated 50+ JavaScript files to TypeScript, reducing the number of runtime errors by 40%. Facilitated a seamless user experience across various devices by migrating from regular CSS to Tailwind CSS. Mentored and supplied valuable resources to interns, resulting in an improvement in the interns' project delivery timelines.",
+      "duration": "2023",
+      "title": "Software Engineer"
+    },
+    {
+      "company": "Coursera",
+      "description": "Spearheaded the implementation of Educator Home 2.0, elevating university staff members' user experience and productivity. Engineered API integrations using GraphQL, resulting in an increase in data retrieval speed and improved course tracking efficiency for university staff members. Enhanced test coverage efficiency and reduced testing time by 40% by migrating Enzyme test suites to React Testing Library. Mentored and onboarded both interns and contractors, advised them on best practices, scoped their projects, and wrote their tickets.",
+      "duration": "2022",
+      "title": "Software Engineer"
+    },
+    {
+      "company": "Coursera",
+      "description": "Contributed to the enhancement of the user experience for the Educator Home Dashboard and Course Staff Management Page. Elevated staff productivity in course navigation by implementing Recently Viewed Courses component. Conducted EPIC experiments and A/B testing plans to roll out, and validate the effectiveness of key features. Enhanced accessibility and cohesiveness by 30% through the successful migration from Coursera UI to Coursera Design System.",
+      "duration": "2021",
+      "title": "Software Engineering Intern"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Python",
+      "Java",
+      "C++",
+      "GraphQL",
+      "MongoDB"
+    ],
+    "familiar": [
+      "C",
+      "Angular",
+      "AWS",
+      "Ruby",
+      "Golang"
+    ],
+    "proficient": [
+      "JavaScript / TypeScript",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git",
+      "React.js / React Native"
+    ]
+  },
+  "summary": "I hold a Bachelor's degree in Math and Computer Science and have a diverse professional background, interning at SAP, Beatdapp, and Coursera before joining Binance and Coursera as a full-time employee. While my experience predominantly lies in Front-End development, I'm eager to transition into Data Engineering. The software industry captivates me due to its constant challenges, engaging both my logical and creative faculties. My passion for software is fueled by the satisfaction of problem-solving and the dynamic nature of the field, driving my continuous pursuit of growth and excellence."
+}
