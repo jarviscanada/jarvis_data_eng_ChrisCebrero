@@ -35,8 +35,6 @@ public class JavaGrepI implements JavaGrep {
     } catch (Exception ex) {
       javaGrepImp.logger.error("Error: Unable to process", ex);
     }
-
-
   }
 
   @Override
@@ -79,14 +77,11 @@ public class JavaGrepI implements JavaGrep {
   @Override
   public List<String> readLines(File inputFile) throws FileNotFoundException {
     List<String> lineList = new ArrayList<>();
-    try {
-      FileReader input = new FileReader(inputFile);
-      BufferedReader reader = new BufferedReader(input);
+    try (BufferedReader reader = new BufferedReader((new FileReader(inputFile)))) {
       String line;
       while ((line = reader.readLine()) != null) {
         lineList.add(line);
       }
-      input.close();
     } catch (Exception ex) {
       logger.error("Error: Unable to process", ex);
     }
@@ -101,12 +96,14 @@ public class JavaGrepI implements JavaGrep {
   @Override
   public void writeToFile(List<String> lines) throws IOException {
     try (BufferedWriter writer = new BufferedWriter((new FileWriter(getOutFile())))) {
-      for (String line : lines) {
-        writer.write(line);
-        writer.newLine();
-      }
-    } catch (IOException e) {
-      e.printStackTrace();
+      lines.forEach(line -> {
+        try {
+          writer.write(line);
+          writer.newLine();
+        } catch (IOException e) {
+          e.printStackTrace();
+        }
+      });
     }
   }
 
