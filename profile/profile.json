@@ -11,19 +11,19 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_ChrisCebrero",
   "highlighted_projects": [
     {
-      "description": "Engineered API Integrations with RESTful APIs to facilitate data exchange between the frontend and backend. Developed the frontend using React.js and TypeScript. Implemented cross-device styling using Tailwind CSS for a responsive user experience.",
+      "description": "Dimensional is a personality testing application that aims to categorize customers across over 100 traits. Engineered API Integrations with RESTful APIs to facilitate personality traits data exchange between the frontend and backend. Developed the frontend using React.js and TypeScript. Implemented cross-device styling using Tailwind CSS for a responsive user experience.",
       "git_url": "https://github.com/chriscebrero/dimensional-app",
       "name": "Web app for Dimensional"
     },
     {
-      "description": "Developed the frontend using React.js. Utilized Redux for complex state management. Coded backend API endpoints using Node.js to handle server-side logic. Implemented authentication and authorization middleware using JWT tokens. Stored user information within MongoDB.",
+      "description": "Warbler is an application where users are able to post short messages to share thoughts, news, and engage with other users in real-time. Developed the frontend using React.js. Utilized Redux for complex state management. Coded backend API endpoints using Node.js to handle server-side logic. Implemented authentication and authorization middleware using JWT tokens. Stored user information within MongoDB.",
       "git_url": "https://github.com/chriscebrero/WarblerApp",
       "name": "Warbler"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Created a cluster monitoring application utilizing Docker, Linux, Bash and PostgreSQL. Developed a startup script that creates a PostgreSQL instance using Docker. Implemented SQL scripts for efficient table management within a Postgres Database which created tables related to hardware specifications and CPU usage. Programmed bash scripts to parse and retrieve essential system information using Regex, and insert them into the corresponding database tables. Manually connected to the PostgreSQL instance to verify information after running scripts. Containerized the application with Docker. Utilized GitHub to host the source code and track any changes. Deployed and automated the process using crontabs, which scheduled bash scripts to run every minute.",
+      "description": "Created a cluster monitoring application utilizing Docker, Linux, Bash and PostgreSQL. Developed a startup script that creates a PostgreSQL instance using Docker. Implemented SQL scripts for efficient table management within a Postgres database which created tables related to hardware specifications and CPU usage. Programmed bash scripts to parse and retrieve essential system information using Regex, and insert them into the corresponding database tables. Manually connected to the PostgreSQL instance to verify information after running scripts. Containerized the application with Docker. Utilized GitHub to host the source code and track any changes. Deployed and automated the process using crontabs, which scheduled bash scripts to run every minute.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     }
@@ -32,12 +32,10 @@
   "others": [
     {
       "bullets": [
-        "Volleyball",
-        "Piano",
-        "Music Production",
-        "Snowboarding",
-        "Badminton",
-        "Video Games"
+        "Volleyball - Experienced volleyball player since middle school, maintaining active participation throughout university and currently engaging in local league tournaments.",
+        "Piano - Piano enthusiast with experience since the age of 3, advancing up until Grade 10 piano lessons, actively participating in recitals and competitions. Currently enjoy playing for leisure and relaxation purposes.",
+        "Music Production - Acquired foundational skills in music production during the pandemic, utilizing any free time to experiment with making music using a MIDI keyboard and Logic Pro X.",
+        "Snowboarding - Began snowboarding in elementary school, enjoying seasonal excursions for recreational snowboarding. Currently focused on mastering terrain park tricks as part of ongoing skill development."
       ],
       "title": "Activities/Hobbies"
     }
@@ -84,7 +82,8 @@
       "Golang"
     ],
     "proficient": [
-      "JavaScript / TypeScript",
+      "JavaScript",
+      "TypeScript",
       "Linux/Bash",
       "RDBMS/SQL",
       "Agile/Scrum",
@@ -92,5 +91,5 @@
       "React.js / React Native"
     ]
   },
-  "summary": "I hold a Bachelor's degree in Math and Computer Science and have a diverse professional background, interning at SAP, Beatdapp, and Coursera before joining Binance and Coursera as a full-time employee. While my experience predominantly lies in Front-End development, I'm eager to transition into Data Engineering. The software industry captivates me due to its constant challenges, engaging both my logical and creative faculties. My passion for software is fueled by the satisfaction of problem-solving and the dynamic nature of the field, driving my continuous pursuit of growth and excellence."
+  "summary": "I hold a Bachelor's degree in Math and Computer Science and have a diverse professional background, interning at SAP, Beatdapp, and Coursera before joining Binance and Coursera as a full-time employee. In my previous experience, I've worked with mostly TypeScript and React. Previously, I've worked as a Software Engineer at Coursera, where I've executed the implementation of several key features for the Educator Admin Dashboard. While my experience predominantly lies in Front-End development, I'm eager to transition into Data Engineering. The software industry captivates me due to its constant challenges, engaging both my logical and creative faculties. My passion for software is fueled by the satisfaction of problem-solving and the dynamic nature of the field, driving my continuous pursuit of growth and excellence."
 }
