@@ -26,6 +26,11 @@
       "description": "Created a cluster monitoring application utilizing Docker, Linux, Bash and PostgreSQL. Developed a startup script that creates a PostgreSQL instance using Docker. Implemented SQL scripts for efficient table management within a Postgres database which created tables related to hardware specifications and CPU usage. Programmed bash scripts to parse and retrieve essential system information using Regex, and insert them into the corresponding database tables. Manually connected to the PostgreSQL instance to verify information after running scripts. Containerized the application with Docker. Utilized GitHub to host the source code and track any changes. Deployed and automated the process using crontabs, which scheduled bash scripts to run every minute.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
+    },
+    {
+      "description": "Grep App: Developed a files processing application using Core Java, Maven, Docker, Lambda Functions and Stream APIs. Engineered to parse any text file with a given Regex pattern within a designated directory. Utilized Maven for dependency management and build processes. Incorporated Lambda functions and Stream API to extract the data. Containerized the application using Docker so it can be deployed across diverse computing environments. Utilized GitHub to host the source code and track any changes.",
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
     }
   ],
   "name": "Chris Cebrero",
