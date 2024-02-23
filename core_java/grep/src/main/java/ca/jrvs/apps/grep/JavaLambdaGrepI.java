@@ -5,19 +5,17 @@ import com.sun.org.slf4j.internal.LoggerFactory;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class JavaLambdaGrepI extends JavaGrepI {
   final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
-
-  private String regex;
-  private String rootPath;
-  private String outFile;
 
   public static void main(String[] args) {
     if (args.length != 3) {
