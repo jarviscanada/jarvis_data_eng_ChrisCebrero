@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_01/02_01_begin/02_01_begin.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_01/02_01_begin/02_01_begin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_01/02_01_end/02_01_end.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_01/02_01_end/02_01_end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_03/02_03_begin/02_03_begin.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_03/02_03_begin/02_03_begin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_03/02_03_end/02_03_end.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_03/02_03_end/02_03_end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_05/02_05_begin/02_05_begin.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_05/02_05_begin/02_05_begin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_05/02_05_end/02_05_end.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_05/02_05_end/02_05_end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_06/02_06_begin/02_06_begin.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_06/02_06_begin/02_06_begin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_06/02_06_end/02_06_end.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_06/02_06_end/02_06_end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_07/02_07_begin/02_07_begin.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_07/02_07_begin/02_07_begin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_07/02_07_end/02_07_end.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_07/02_07_end/02_07_end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_10/02_10_begin/02_10_begin.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_10/02_10_begin/02_10_begin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_10/02_10_end/02_10_end.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 2/02_10/02_10_end/02_10_end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 3/03_01/03_01_begin/03_01_begin.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 3/03_01/03_01_begin/03_01_begin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 3/03_01/03_01_end/03_01_end.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 3/03_01/03_01_end/03_01_end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 3/03_02/03_02_begin/03_02_begin.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 3/03_02/03_02_begin/03_02_begin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 3/03_02/03_02_end/03_02_end.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 3/03_02/03_02_end/03_02_end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 3/03_03/03_03_begin/03_03_begin.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 3/03_03/03_03_begin/03_03_begin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 3/03_03/03_03_end/03_03_end.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 3/03_03/03_03_end/03_03_end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 4/04_02/04_02_begin/04_02_begin.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 4/04_02/04_02_begin/04_02_begin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 4/04_02/04_02_end/04_02_end.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 4/04_02/04_02_end/04_02_end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/Exercise Files/Chapter 1/Chapter 1.iml" filepath="$PROJECT_DIR$/sql/Exercise Files/Chapter 1/Chapter 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jdbc.iml" filepath="$PROJECT_DIR$/.idea/jdbc.iml" />
+    </modules>
+  </component>
+</project>
